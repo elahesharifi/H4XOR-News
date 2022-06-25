@@ -13,6 +13,7 @@
 		A6DB0BEA2867AC2D00D19F87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DB0BE92867AC2D00D19F87 /* Preview Assets.xcassets */; };
 		A6DB0BF32867B1D400D19F87 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB0BF22867B1D400D19F87 /* NetworkManager.swift */; };
 		A6DB0BF52867B5BB00D19F87 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB0BF42867B5BB00D19F87 /* PostData.swift */; };
+		A6DB0BFA2867BED600D19F87 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB0BF92867BED600D19F87 /* detailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6DB0BEB2867AC2D00D19F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6DB0BF22867B1D400D19F87 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A6DB0BF42867B5BB00D19F87 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		A6DB0BF92867BED600D19F87 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A6DB0BE22867AC2600D19F87 /* H4XOR_NewsApp.swift */,
-				A6DB0BE42867AC2600D19F87 /* ContentView.swift */,
+				A6DB0BF62867BE7A00D19F87 /* View */,
 				A6DB0BF12867B18B00D19F87 /* Models */,
 				A6DB0BE62867AC2D00D19F87 /* Assets.xcassets */,
 				A6DB0BEB2867AC2D00D19F87 /* Info.plist */,
@@ -81,6 +83,15 @@
 				A6DB0BF42867B5BB00D19F87 /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A6DB0BF62867BE7A00D19F87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB0BE42867AC2600D19F87 /* ContentView.swift */,
+				A6DB0BF92867BED600D19F87 /* detailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 				A6DB0BF52867B5BB00D19F87 /* PostData.swift in Sources */,
 				A6DB0BE52867AC2600D19F87 /* ContentView.swift in Sources */,
 				A6DB0BE32867AC2600D19F87 /* H4XOR_NewsApp.swift in Sources */,
+				A6DB0BFA2867BED600D19F87 /* detailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
